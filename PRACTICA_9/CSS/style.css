@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+article{
+    background-color: #eaeaea;
+}
+nav{
+    background-color: #ffffff;
+}
+nav ul li a{
+    color: #f3eeee;
+}
+nav ul li a:hover{
+    color: #050505;
+}
+footer{    
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #080808;
+    color: rgb(250, 245, 245);
+    text-align: left;
+    padding: 3%;
+}
+/* Estilos para el header */
+header {
+    background-color: #333; /* Cambia el color de fondo a tu preferencia */
+    padding: 10px 0; /* Agrega un espacio de relleno arriba y abajo */
+}
+
+/* Estilos para la lista de navegación */
+ul.nav {
+    list-style-type: none; /* Quita los puntos de lista */
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li.nav-item {
+    display: inline; /* Muestra los elementos en línea */
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+ul.nav li.nav-item a.nav-link {
+    color: #fff; /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+}
+
+ul.nav li.nav-item a.nav-link:hover {
+    color: #ff9900; /* Cambia el color del texto al pasar el cursor */
+}

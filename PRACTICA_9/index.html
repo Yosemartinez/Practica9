@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="CSS/style.css"> 
+       <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.min.css">
+       <script type="text/javascript" src="Js/bootstrap.min.js"></script>
+       <title>Practica 9</title>
+    </head>
+    <body>
+        <header>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN1TiXFqB0s_Wffroz9lklvOd1Zz-vSsz0HrPfcwLURK-5kRiPdCgUKKdykxGjDGFS3aY&usqp=CAU" width="50" height="50">
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                </li>
+              </ul>
+        </header>
+        <article>
+            <div class="container">
+                <!-- Content here -->
+                <h1>Mi Pagina con Bootstrap</h1>
+                <p>Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile firdt,
+                    o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario. 
+                </p>
+
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Paterno</th>
+                            <th scope="col">Materno</th>
+                            <th scope="col">Matricula</th>
+                            <th scope="col">Foto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Yoselin</td>
+                            <td>Diaz</td>
+                            <td>Martinez</td>
+                            <td>A210223</td>
+                            <td><img src="img/Icon.png" height="80px" width="80px"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jazmin</td>
+                            <td>Cruz</td>
+                            <td>Espinoza</td>
+                            <td>A210545</td>
+                            <td><img src="img/Icon.png" height="80px" width="80px"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Ernesto</td>
+                            <td>Domiguez</td>
+                            <td>Nuñuez</td>
+                            <td>A210925</td>
+                            <td><img src="img/Icon.png" height="80px" width="80px"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card-body text-center">
+                                <!-- Agrega la imagen centrada -->
+                                <img src="https://ams3.digitaloceanspaces.com/ondho/uploads/2013/05/compiladores_css_2400x1100.jpg" alt="Imagen Compiladores" class="img-fluid">
+                                <h5 class="card-title">Compiladores</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">El Papel Fundamental de los Compiladores en la Programación</h6>
+                                <p class="card-text">Un compilador es una herramienta esencial en el mundo de la programación y la informática. 
+                                    Su función principal es traducir el código fuente escrito por un programador en un lenguaje.</p>
+                                <a href="https://getbootstrap.com/docs/5.3/getting-started/javascript/#individual-or-compiled" class="card-link">Enlace 1</a>
+                                <a href="https://youtu.be/bdvNF5oEMPs?si=8JfMpSrLacrQm9Lr" class="card-link">Video</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body text-center">
+                                <!-- Agrega la imagen centrada -->
+                                <img src="https://www.soyconta.com/wp-content/uploads/2023/07/Lugar-donde-deber-conservarse-la-contabilidad-de-la-empresa-1.png" alt="Imagen Contabilidad" class="img-fluid">
+                                <h5 class="card-title">Contabilidad</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Importancia de la Contabilidad en la Toma de Decisiones Empresariales</h6>
+                                <p class="card-text">La contabilidad es la columna vertebral de la gestión financiera de una empresa, proporcionando datos clave para la toma de decisiones estratégicas.</p>
+                                <a href="https://www.cesuma.mx/blog/conceptos-basicos-y-objetivos-de-la-contabilidad.html" class="card-link">Enlace 2</a>
+                                <a href="https://youtu.be/89hviyC05NQ?si=jiRMHnSby5F9vYwx" class="card-link">Video</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body text-center">
+                                <!-- Agrega la imagen centrada -->
+                                <img src="https://disenowebakus.net/imagenes/articulos/bases-de-datos.jpg" alt="Imagen Base de Datos" class="img-fluid">
+                                <h5 class="card-title">Base de Datos</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">La Base de Datos: El Corazón de la Gestión de Información</h6>
+                                <p class="card-text">Las bases de datos son sistemas organizados de almacenamiento y gestión de información que permiten 
+                                    la entrada, recuperación y manipulación eficiente de datos para diversas aplicaciones.</p>
+                                <a href="https://support.microsoft.com/es-es/office/conceptos-b%C3%A1sicos-sobre-bases-de-datos-a849ac16-07c7-4a31-9948-3c8c94a7c204" class="card-link">Enlace 3</a>
+                                <a href="https://youtu.be/6S8A-1jBD5Y?si=ooOEtpQH1a2GbViV" class="card-link">Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                  </div>
+              </div>
+        </article>
+        <footer>
+            <div class="row" style="display: flex; align-items: center;">
+                <div class="card-body" style="flex: 1;"> 
+                    <img src="https://assets.stickpng.com/images/62a76468bd73a4af5c5d4fb7.png"alt="250px"  width="250px">                
+                </div>
+                <div class="card-body" style="flex: 1;"> 
+                    <h5 class="card-title">CONTACTO</h5>
+                    &copy; 2023 Derechos Reservados <br>
+                    Diaz Martinez Yoselin Guadalupe <br>
+                    yoselin.diaz17@unach.mx
+                </div>
+                <div class="card-body" style="flex: 1;"> 
+                    <h5 class="card-title">UBICACIÓN</h5>
+                    Bulevard Belisario Domínguez, Kilómetro 1081, Sin Número, Plan de Ayala, Tuxtla Gutiérrez, Chiapas.<br><br>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
